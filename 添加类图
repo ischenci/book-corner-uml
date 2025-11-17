@@ -1,0 +1,8 @@
+# 将类图文件添加到暂存区
+git add 类图.drawio.png
+
+# 进行第三次提交
+git commit -m "docs: add class diagram"
+
+# 推送到远程仓库
+git push
