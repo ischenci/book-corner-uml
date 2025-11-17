@@ -1,5 +1,5 @@
 # 将类图文件添加到暂存区
-git add 类图.drawio.png
+git add class.drawio.png
 
 # 进行第三次提交
 git commit -m "docs: add class diagram"
