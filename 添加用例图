@@ -1,11 +1,11 @@
-# 查看状态，会显示未跟踪的图片文件
-git status
+cd D:\桌面\用例图.drawio.png
 
-# 将用例图文件添加到暂存区
-git add 用例图.drawio.png
+git init
 
-# 进行第二次提交
-git commit -m "docs: add use case diagram"
+git add .
 
-# 推送到远程仓库
-git push
+git commit -m "feat: initial commit with README and UML diagrams"
+
+git branch -M main
+
+git push -u origin main
